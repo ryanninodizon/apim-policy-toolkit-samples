@@ -8,8 +8,7 @@ namespace Apim.Policies
         public void Inbound(IInboundContext context)
         {
            context.Base();
-           context.SetHeader("X-First-Policy", "FirstPolicy");           
-        
+           context.SetHeader("X-First-Policy", "FirstPolicy");         
         }
         
     }
